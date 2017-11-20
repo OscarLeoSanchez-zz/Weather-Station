@@ -1,0 +1,8 @@
+git commands
+
+git pull : para actualiudzar
+git status : Ver estado
+git add NombreAchivo : Agregar archivos individuales
+git add --all : Agrega todo los cambios
+git commit -m "nombre de los cambioc que se hicieron" : Pone comentarios de lo que se va a subir 
+git push : Subir los cambios, ahí le pide el nombre de usuario y contraseña del github
