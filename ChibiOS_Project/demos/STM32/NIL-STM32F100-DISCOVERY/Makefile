@@ -113,6 +113,7 @@ CSRC = $(STARTUPSRC) \
        $(PLATFORMSRC) \
        $(BOARDSRC) \
        $(TESTSRC) \
+       $(CHIBIOS)/os/hal/lib/streams/memstreams.c \
        $(CHIBIOS)/os/hal/lib/streams/chprintf.c \
        main.c
 
@@ -147,6 +148,7 @@ ASMXSRC = $(STARTUPASM) $(PORTASM) $(OSALASM)
 INCDIR = $(CHIBIOS)/os/license \
          $(STARTUPINC) $(KERNINC) $(PORTINC) $(OSALINC) \
          $(HALINC) $(PLATFORMINC) $(BOARDINC) $(TESTINC) \
+	 $(CHIBIOS)/os/hal/lib/streams \
          $(CHIBIOS)/os/various
 
 #
@@ -160,7 +162,8 @@ INCDIR = $(CHIBIOS)/os/license \
 MCU  = cortex-m3
 
 #TRGT = arm-elf-
-TRGT = arm-none-eabi-
+#TRGT = arm-none-eabi-
+TRGT = /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-
 CC   = $(TRGT)gcc
 CPPC = $(TRGT)g++
 # Enable loading with g++ only if you need C++ runtime support.

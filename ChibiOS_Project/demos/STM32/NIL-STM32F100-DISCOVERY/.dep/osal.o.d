@@ -1,14 +1,14 @@
 build/obj/osal.o: ../../../os/hal/osal/rt/osal.c \
  ../../../os/hal/osal/rt/osal.h \
- /usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h \
- /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h \
- /usr/arm-none-eabi/include/stdint.h \
- /usr/arm-none-eabi/include/machine/_default_types.h \
- /usr/arm-none-eabi/include/sys/features.h \
- /usr/arm-none-eabi/include/_newlib_version.h \
- /usr/arm-none-eabi/include/sys/_intsup.h \
- /usr/arm-none-eabi/include/sys/_stdint.h \
- /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h \
+ /opt/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h \
+ /opt/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h \
+ /opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdint.h \
+ /opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_default_types.h \
+ /opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/features.h \
+ /opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_newlib_version.h \
+ /opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_intsup.h \
+ /opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h \
+ /opt/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h \
  ../../../os/rt/include/ch.h \
  ../../../os/common/ports/ARMCMx/compilers/GCC/chtypes.h chconf.h \
  ../../../os/license/chlicense.h ../../../os/license/chcustomer.h \
@@ -47,23 +47,23 @@ build/obj/osal.o: ../../../os/hal/osal/rt/osal.c \
 
 ../../../os/hal/osal/rt/osal.h:
 
-/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h:
+/opt/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h:
 
-/usr/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h:
+/opt/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h:
 
-/usr/arm-none-eabi/include/stdint.h:
+/opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdint.h:
 
-/usr/arm-none-eabi/include/machine/_default_types.h:
+/opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_default_types.h:
 
-/usr/arm-none-eabi/include/sys/features.h:
+/opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/features.h:
 
-/usr/arm-none-eabi/include/_newlib_version.h:
+/opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_newlib_version.h:
 
-/usr/arm-none-eabi/include/sys/_intsup.h:
+/opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_intsup.h:
 
-/usr/arm-none-eabi/include/sys/_stdint.h:
+/opt/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h:
 
-/usr/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h:
+/opt/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h:
 
 ../../../os/rt/include/ch.h:
 

@@ -1,0 +1,35 @@
+#include "ch.h"
+#include "hal.h"
+
+static UARTConfig uart_cfg_1 = {
+  NULL,
+  NULL,
+  NULL,
+  NULL,
+  NULL,
+  38400,
+  0,
+  USART_CR2_LINEN,
+  0
+};
+
+int main(void) {
+
+
+
+  halInit();
+  chSysInit();
+
+
+  uartStart(&UARTD2, &uart_cfg_1);
+
+
+  uartStartSend(&UARTD2, 13, "Starting...\r\n");
+
+
+  while (true) {
+    uartStartSend(&UARTD2, 13, "Starting...\r\n");
+    chThdSleepMilliseconds(500);
+  }
+  return 0;
+}
